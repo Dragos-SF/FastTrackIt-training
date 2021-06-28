@@ -2,13 +2,13 @@ package org.fasttrackit.course5;
 
 public interface Human {
 
-    String firstName ();
-    String lastName ();
-    String dateOfBirth ();
-    String dateOfEnrollment();
-    String facultyName ();
-    String specializationName();
-    String dateOfHiring();
+    String getFirstName ();
+    String getLastName ();
+    String getDateOfBirth ();
+    String getDateOfEnrollment();
+    String getFacultyName ();
+    String getSpecializationName();
+    String getDateOfHiring();
 
 
 

@@ -11,7 +11,7 @@ public class Professor implements Human{
     private ProfessorType type;
 
     public ProfessorType getType() {
-        return ProfessorType.PROFESSOR;
+        return type;
     }
 
     public void setType(ProfessorType type) {
@@ -40,6 +40,16 @@ public class Professor implements Human{
 
     public String getDateOfBirth() {
         return dateOfBirth;
+    }
+
+    @Override
+    public String getDateOfEnrollment() {
+        return null;
+    }
+
+    @Override
+    public String getFacultyName() {
+        return null;
     }
 
     public String getDateOfHiring() {
@@ -95,42 +105,7 @@ public class Professor implements Human{
                 '}';
     }
 
-    @Override
-    public String firstName() {
-        return "Lazar";
+
+    public void setType() {
     }
-
-    @Override
-    public String lastName() {
-        return "Mihnea";
-    }
-
-    @Override
-    public String dateOfBirth() {
-        return "05.11.1991";
-    }
-
-    @Override
-    public String dateOfEnrollment() {
-        return null;
-    }
-
-    @Override
-    public String facultyName() {
-        return null;
-    }
-
-    @Override
-    public String specializationName() {
-        return "JAVA";
-    }
-
-    @Override
-    public String dateOfHiring() {
-        return "15.06.2018";
-    }
-
-
-
-
 }

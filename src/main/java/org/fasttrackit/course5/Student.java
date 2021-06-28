@@ -12,7 +12,7 @@ public class Student implements Human{
     private StudentType stype;
 
     public StudentType getStype() {
-        return StudentType.MASTERS;
+        return stype;
     }
 
     public void setStype(StudentType stype) {
@@ -54,6 +54,11 @@ public class Student implements Human{
 
     public String getSpecializationName() {
         return specializationName;
+    }
+
+    @Override
+    public String getDateOfHiring() {
+        return null;
     }
 
     public void setFirstName(String firstName) {
@@ -107,40 +112,6 @@ public class Student implements Human{
     }
 
 
-    @Override
-    public String firstName() {
-        return "Dragos";
-    }
-
-    @Override
-    public String lastName() {
-        return "Man";
-    }
-
-    @Override
-    public String dateOfBirth() {
-        return "30.12.1989";
-    }
-
-    @Override
-    public String dateOfEnrollment() {
-        return "14.05.2021";
-    }
-
-    @Override
-    public String facultyName() {
-        return "USAMV";
-    }
-
-    @Override
-    public String specializationName() {
-        return "Environmental Protection";
-    }
-
-    @Override
-    public String dateOfHiring() {
-        return null;
-    }
 
 
 
