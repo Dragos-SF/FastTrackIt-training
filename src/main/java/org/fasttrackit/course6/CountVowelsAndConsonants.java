@@ -1,6 +1,6 @@
 package org.fasttrackit.course6;
 
-public class CountVowelsAndConsonants<count, i, a> {
+public class CountVowelsAndConsonants {
 
     public static void main(String[] args) {
          String aplhabet = "abcdefghijklmnoprstuvwxyz";
